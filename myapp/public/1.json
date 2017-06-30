@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "tales1",
+    "img": "/stories/skazka1.jpg",
+    "tale": "lorem tale"
+  },
+  {
+    "id": 2,
+    "title": "tales2",
+    "img": "/stories/skazka2.jpg",
+    "tale": "lorem tale2"
+  },
+  {
+    "id": 3,
+    "title": "tales3",
+    "img": "/stories/skazka3.jpg",
+    "tale": "lorem tale3"
+  },
+  {
+    "id": 4,
+    "title": "tales4",
+    "img": "/stories/skazka4.jpg",
+    "tale": "lorem tale4"
+  }
+]

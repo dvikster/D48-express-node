@@ -1,0 +1,19 @@
+extends layout
+
+block sidebar
+    include sidebar
+
+block content
+    div(class="main-content with-sidebar")
+      h1  Сказки
+      if !data
+        a(href='/tales') Вернуться к списку сказок
+        h2= title
+        p= text
+        p= src
+      else
+        ul
+        each item in data
+          a(href='tales/?t='+ item.id)
+            li= item.title
+
